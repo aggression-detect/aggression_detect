@@ -15,3 +15,6 @@ python vtrans.py [commands]
 Example:
 python vtrans.py -a -s 300 300
 python vtrans.py -s 100 100 -t 0 60 -i .\input_dir\1.mp4 .\output_dir\1.mp4
+
+Notice:
+The VTrans is based on ffmpeg. Please download ffmpeg and set the "bin" folder in system PATH variable.
