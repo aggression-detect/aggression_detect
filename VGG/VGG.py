@@ -1,15 +1,18 @@
 # -*- coding: utf-8 -*-
 from math import floor
+from sklearn.metrics import classification_report
 import numpy as np
 import glob
 #import cv2
 import re
 from numpy.random import seed
-seed(1)
+
 import os
 import h5py
 import gc
 import re
+import tensorflow as tf
+from tensorflow.keras.activations import sigmoid 
 from tensorflow.keras import Sequential
 from tensorflow.keras.models import load_model, Model
 from tensorflow.keras.layers import (Input, Conv2D, MaxPooling2D, Flatten,
@@ -35,6 +38,8 @@ from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 @rate: the propotion between training dataset and others
 @rate2: the propotion between validation dataset and test dataset
 '''
+
+
 def preprocess(path, USE_NPY=True, RUN_ALL = True, data_kind = None, data_list= None, rate = 0.7, rate2=0.5):
     if not RUN_ALL:
         if USE_NPY:
@@ -101,16 +106,30 @@ def preprocess(path, USE_NPY=True, RUN_ALL = True, data_kind = None, data_list= 
                 test_file += fight_files[floor(len(fight_files)*rate):]+ noFight_files[floor(len(noFight_files)*rate):]
                 train_file += fight_files[:floor(len(fight_files)*rate)]+ noFight_files[:floor(len(noFight_files)*rate)]
 
-    valid_file = test_file[floor(len(test_file)*rate2):]
-    test_file = test_file[:floor(len(test_file)*rate2)]
 
     np.random.shuffle(test_file)
     np.random.shuffle(train_file)
-    np.random.shuffle(valid_file)
+				
+    valid_file = test_file[floor(len(test_file)*rate2):]
+    test_file = test_file[:floor(len(test_file)*rate2)]
+
     print ("test data length = ",len(test_file))
     print ("train data length = ", len(train_file))
     print ("valid data length = ", len(valid_file))
     return train_file, valid_file, test_file 
+
+def get_y (file):
+    y_test = []
+    print (file)
+    for video_path in file:
+        flow = np.load(file = video_path)
+        if "noFight" in video_path:
+            y_test += [0 for i in range(len(flow))]
+        else:
+            y_test += [1 for i in range(len(flow))]
+    
+    return y_test
+
 
 def generator(list1, lits2):
     '''
@@ -129,6 +148,8 @@ def sort_key(s):
         except:
             c = -1
         return int(c)
+
+
 def data_generator (train_file,batch_size):
     count = 0
     trainx = np.zeros(shape=(0,224,224,2*L), dtype=np.float64)
@@ -271,7 +292,7 @@ class VGG_Model():
     
     def train(self,train_generator,valid_generator,train_file, valid_file,  batch_size, callbacks_list, epoch = 50, verbose=2):
         self.model.fit(train_generator, steps_per_epoch=len(train_file)//batch_size,
-				epochs = epoch, validation_data=valid_generator,validation_steps= len(valid_file)//batch_size,
+				epochs = epoch, validation_data=valid_generator,validation_steps= len(valid_file),
 				callbacks = callbacks_list, verbose = 2 )
     
     def load_weights(self, h5_path):
@@ -280,8 +301,10 @@ class VGG_Model():
     def test(self,test_generator,steps,verbose=2):
         self.model.evaluate_generator(test_generator,steps=steps,verbose=verbose)
 
+
 if __name__ == '__main__':
     # get the work path
+    sess = tf.InteractiveSession()
     path = os.getcwd()
     #path = os.path.abspath(os.path.dirname(path)+os.path.sep+".")
     os.chdir(path)
@@ -290,20 +313,23 @@ if __name__ == '__main__':
 
     # name list of all dataset 
     data_kind_list = ["Movie Dataset", "HockeyFights", "Surveillance Camera Fight Dataset", "youtube_fight"]
-    data_kind = data_kind_list[0]
+    data_kind = data_kind_list[3]
     USE_NPY = True # whether to use .npy file
-    RUN_ALL = True # whether to train on all dataset
+    RUN_ALL = False # whether to train on all dataset
     # L: the frame number per stack, generally we set it to 10, so there
     #    will be 10 x-optical flows and 10 y-optical flows per stack
     L = 5 # 5 or 10 
-    batch_size = 3
+    batch_size = 4
     epoch = 50
     rate = 0.7
     rate2 = 0.5
     print("L =",L,"batch_size = ", batch_size)
 
     # save the best weight
-    h5_path = path + "/VGG/weights_"+str(L)+"_"+data_kind+".best.hdf5"
+    if not RUN_ALL:
+        h5_path = path + "/VGG/weights/weights_"+str(L)+"_"+data_kind+".best.hdf5"
+    else:
+        h5_path = path + "/VGG/weights/weights_"+str(L)+"_All.best.hdf5"
     checkpoint = ModelCheckpoint(h5_path, monitor='val_acc', verbose=1, save_best_only=True,mode='max')
     callbacks_list = [checkpoint]
     train_file, valid_file, test_file  = preprocess(path, USE_NPY=USE_NPY, RUN_ALL = RUN_ALL, data_kind = data_kind, data_list= data_kind_list, rate = rate, rate2=rate2)
@@ -312,25 +338,19 @@ if __name__ == '__main__':
 
     if not USE_NPY:
         train_generator = data_generator (train_file,batch_size)
-        valid_generator = data_generator (valid_file,batch_size)
-        test_generator = data_generator (test_file,batch_size)
+        valid_generator = data_generator (valid_file,1)
+        test_generator = data_generator (test_file,1)
     else:
         train_generator = npy_generator (train_file,batch_size)
-        valid_generator = npy_generator (valid_file,batch_size)
-        test_generator = npy_generator (test_file, batch_size)
+        valid_generator = npy_generator (valid_file,1)
+        test_generator = npy_generator (test_file, 1)
     
-    model.train(train_generator,valid_generator, train_file, 
-                valid_file, batch_size=batch_size, callbacks_list=callbacks_list, epoch = epoch, verbose=2)
+    #model.train(train_generator,valid_generator, train_file, 
+    #           valid_file, batch_size=batch_size, callbacks_list=callbacks_list, epoch = epoch, verbose=2)
     
     model.load_weights(h5_path)
 
     print ('###################### Test ######################')
     model.test(test_generator, len(test_file))
 
-
-    
-
-
-
-        
 
