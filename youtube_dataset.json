@@ -1,0 +1,1099 @@
+{
+    "ou83m0KY3MQ_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                0.0,
+                2.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=ou83m0KY3MQ"
+    },
+    "ou83m0KY3MQ_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                4.0,
+                6.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=ou83m0KY3MQ"
+    },
+    "ou83m0KY3MQ_3": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                23.0,
+                25.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=ou83m0KY3MQ"
+    },
+    "ou83m0KY3MQ_4": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                53.0,
+                54.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=ou83m0KY3MQ"
+    },
+    "ou83m0KY3MQ_5": {    
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                58.0,
+                59.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=ou83m0KY3MQ"
+    },
+    "bcK9ZbgCtos_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                37.0,
+                39.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=bcK9ZbgCtos"
+    },
+    "bcK9ZbgCtos_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                51.0,
+                53.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=bcK9ZbgCtos"
+    },
+    "bcK9ZbgCtos_3": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                57.0,
+                59.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=bcK9ZbgCtos"
+    },
+    "bcK9ZbgCtos_4": {      
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                32.0,
+                34.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=bcK9ZbgCtos"
+    },
+    "Znney6EFKoc_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                22.0,
+                23.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=Znney6EFKoc"
+    },
+    "Znney6EFKoc_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                27.0,
+                29.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=Znney6EFKoc"
+    },
+    "Znney6EFKoc_3": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                30.0,
+                31.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=Znney6EFKoc"
+    },
+    "Znney6EFKoc_4": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                41.0,
+                43.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=Znney6EFKoc"
+    },
+    "Znney6EFKoc_5": {    
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                10.0,
+                11.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=Znney6EFKoc"
+    },
+    "zhTqNKZ20w4_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                12.0,
+                14.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=zhTqNKZ20w4"
+    },
+    "zhTqNKZ20w4_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                10.0,
+                13.0
+            ]
+        },
+        "duration": 3.0,
+        "url": "https://www.youtube.com/watch?v=zhTqNKZ20w4"
+    },
+    "zhTqNKZ20w4_3": {
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                0.0,
+                2.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=zhTqNKZ20w4"
+    },
+    "zhTqNKZ20w4_4": {    
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                4.0,
+                6.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=zhTqNKZ20w4"
+    },
+    "CDvsNvKOgII_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                8.0,
+                9.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=CDvsNvKOgII"
+    },
+    "CDvsNvKOgII_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                9.0,
+                11.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=CDvsNvKOgII"
+    },
+    "CDvsNvKOgII_3": {   
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                16.0,
+                17.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=CDvsNvKOgII"
+    },
+    "649toUuqz7Y_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                16.0,
+                18.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=649toUuqz7Y"
+    },
+    "649toUuqz7Y_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                20.0,
+                22.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=649toUuqz7Y"
+    },
+    "649toUuqz7Y_3": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                28.0,
+                30.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=649toUuqz7Y"
+    },
+    "649toUuqz7Y_4": {    
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                34.0,
+                36.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=649toUuqz7Y"
+    },
+    "2x7hBM9d7_Q_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                18.0,
+                20.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=2x7hBM9d7_Q"
+    },
+    "2x7hBM9d7_Q_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                28.0,
+                30.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=2x7hBM9d7_Q"
+    },
+    "2x7hBM9d7_Q_3": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                53.0,
+                55.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=2x7hBM9d7_Q"
+    },
+    "2x7hBM9d7_Q_4": {
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                0.0,
+                2.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=2x7hBM9d7_Q"
+    },
+    "2x7hBM9d7_Q_5": {
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                3.0,
+                5.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=2x7hBM9d7_Q"
+    },
+    "2x7hBM9d7_Q_6": {
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                8.0,
+                10.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=2x7hBM9d7_Q"
+    },
+    "2x7hBM9d7_Q_7": {
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                59.0,
+                60.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=2x7hBM9d7_Q"
+    },
+    "2x7hBM9d7_Q_8": {
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                6.0,
+                8.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=2x7hBM9d7_Q"
+    },
+    "2x7hBM9d7_Q_9": {       
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                12.0,
+                14.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=2x7hBM9d7_Q"
+    },
+    "7BrD4UwMbuA_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                3.0,
+                4.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=7BrD4UwMbuA"
+    },
+    "7BrD4UwMbuA_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                5.0,
+                6.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=7BrD4UwMbuA"
+    },
+    "7BrD4UwMbuA_3": {   
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                14.0,
+                16.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=7BrD4UwMbuA"
+    },
+    "kKRCFh4Saio_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                5.0,
+                7.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=kKRCFh4Saio"
+    },
+    "kKRCFh4Saio_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                58.0,
+                60.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=kKRCFh4Saio"
+    },
+    "kKRCFh4Saio_3": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                0.0,
+                2.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=kKRCFh4Saio"
+    },
+    "kKRCFh4Saio_4": {    
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                71.0,
+                72.0
+            ]
+        },
+        "duration": 10.0,
+        "url": "https://www.youtube.com/watch?v=kKRCFh4Saio"
+    },
+    "djPPgeibxbU_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                16.0,
+                18.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=djPPgeibxbU"
+    },
+    "djPPgeibxbU_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                22.0,
+                25.0
+            ]
+        },
+        "duration": 3.0,
+        "url": "https://www.youtube.com/watch?v=djPPgeibxbU"
+    },
+    "djPPgeibxbU_3": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                30.0,
+                32.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=djPPgeibxbU"
+    },
+    "djPPgeibxbU_4": {    
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                0.0,
+                2.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=djPPgeibxbU"
+    },
+    "fqwXpt8IFAI_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                50.0,
+                53.0
+            ]
+        },
+        "duration": 3.0,
+        "url": "https://www.youtube.com/watch?v=fqwXpt8IFAI"
+    },
+    "fqwXpt8IFAI_2": {   
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                64.0,
+                65.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=fqwXpt8IFAI"
+    },
+    "n6pdizVVJ4c_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                27.0,
+                28.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=n6pdizVVJ4c"
+    },
+    "n6pdizVVJ4c_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                25.0,
+                26.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=n6pdizVVJ4c"
+    },
+    "n6pdizVVJ4c_3": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                32.0,
+                34.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=n6pdizVVJ4c"
+    },
+    "n6pdizVVJ4c_4": {
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                2.0,
+                4.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=n6pdizVVJ4c"
+    },
+    "n6pdizVVJ4c_5": {
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                8.0,
+                10.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=n6pdizVVJ4c"
+    }, 
+    "n6pdizVVJ4c_6": {     
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                15.0,
+                17.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=n6pdizVVJ4c"
+    },
+    "4q2dGw1kmBU_1": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                4.0,
+                6.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=4q2dGw1kmBU"
+    },
+    "4q2dGw1kmBU_2": {
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                7.0,
+                8.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=4q2dGw1kmBU"
+    },
+    "4q2dGw1kmBU_3": {    
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                34.0,
+                36.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=4q2dGw1kmBU"
+    },
+    "Y1CJbpOIYaE_1": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                5.0,
+                7.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=Y1CJbpOIYaE"
+    },
+    "Y1CJbpOIYaE_2": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                10.0,
+                12.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=Y1CJbpOIYaE"
+    },
+    "Y1CJbpOIYaE_3": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                18.0,
+                19.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=Y1CJbpOIYaE"
+    },
+    "1Chh_r72UDM_1": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                9.0,
+                11.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=1Chh_r72UDM"
+    },
+    "1Chh_r72UDM_2": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                15.0,
+                17.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=1Chh_r72UDM"
+    },
+    "1Chh_r72UDM_3": {          
+        "annotations": {   
+            "label": "noFight",
+            "segment": [
+                1.0,
+                3.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=1Chh_r72UDM"
+    },
+    "vA6se9rUD3A_1": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                45.0,
+                46.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_2": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                47.0,
+                49.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_3": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                56.0,
+                58.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_4": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                65.0,
+                66.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_5": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                49.0,
+                50.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_6": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                170.0,
+                172.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_7": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                198.0,
+                199.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_8": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                200.0,
+                202.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_9": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                30.0,
+                32.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_10": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                33.0,
+                35.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_11": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                36.0,
+                38.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_12": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                52.0,
+                54.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_13": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                154.0,
+                156.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_14": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                156.0,
+                158.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "vA6se9rUD3A_15": {        
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                195.0,
+                196.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=vA6se9rUD3A"
+    },
+    "AzwPmn5pnuk_1": {         
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                44.0,
+                46.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=AzwPmn5pnuk"
+    },
+    "AzwPmn5pnuk_2": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                49.0,
+                50.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=AzwPmn5pnuk"
+    },
+    "RHPU6Myf1F4_1": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                49.0,
+                51.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=RHPU6Myf1F4"
+    },
+    "RHPU6Myf1F4_2": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                53.0,
+                54.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=RHPU6Myf1F4"
+    },
+    "RHPU6Myf1F4_3": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                35.0,
+                37.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=RHPU6Myf1F4"
+    },
+    "RHPU6Myf1F4_4": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                39.0,
+                40.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=RHPU6Myf1F4"
+    },
+    "9Fj2lIVOdMw_1": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                10.0,
+                12.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=9Fj2lIVOdMw"
+    },
+    "9Fj2lIVOdMw_2": {          
+        "annotations": {  
+            "label": "fight",
+            "segment": [
+                25.0,
+                27.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=9Fj2lIVOdMw"
+    },
+    "AiRskq-VnfM_1": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                62.0,
+                65.0
+            ]
+        },
+        "duration": 3.0,
+        "url": "https://www.youtube.com/watch?v=AiRskq-VnfM"
+    },
+    "AiRskq-VnfM_2": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                68.0,
+                69.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=AiRskq-VnfM"
+    },
+    "AiRskq-VnfM_3": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                10.0,
+                12.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=AiRskq-VnfM"
+    },
+    "AiRskq-VnfM_4": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                12.0,
+                14.0
+            ]
+        },
+        "duration": 1.0,
+        "url": "https://www.youtube.com/watch?v=AiRskq-VnfM"
+    },
+    "AiRskq-VnfM_5": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                14.0,
+                16.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=AiRskq-VnfM"
+    },
+    "AiRskq-VnfM_6": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                16.0,
+                18.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=AiRskq-VnfM"
+    },
+    "AiRskq-VnfM_7": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                18.0,
+                20.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=AiRskq-VnfM"
+    },
+    "AiRskq-VnfM_8": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                21.0,
+                23.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=AiRskq-VnfM"
+    },
+    "AiRskq-VnfM_9": {          
+        "annotations": {    
+            "label": "noFight",
+            "segment": [
+                23.0,
+                25.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=AiRskq-VnfM"
+    },
+    "szLlvppdFJo_1": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                67.0,
+                69.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=szLlvppdFJo"
+    },
+    "szLlvppdFJo_2": {          
+        "annotations": {
+            "label": "fight",
+            "segment": [
+                150.0,
+                152.0
+            ]
+        },
+        "duration": 10.0,
+        "url": "https://www.youtube.com/watch?v=szLlvppdFJo"
+    },
+    "szLlvppdFJo_3": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                0.0,
+                2.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=szLlvppdFJo"
+    },
+    "szLlvppdFJo_4": {          
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                28.0,
+                30.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=szLlvppdFJo"
+    },
+    "szLlvppdFJo_5": {        
+        "annotations": {
+            "label": "noFight",
+            "segment": [
+                31.0,
+                33.0
+            ]
+        },
+        "duration": 2.0,
+        "url": "https://www.youtube.com/watch?v=szLlvppdFJo"
+    }
+    
+}
+
+
+
+
+
+
+
