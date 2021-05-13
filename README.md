@@ -54,7 +54,7 @@ Th data_kind_list lists all the video type, change the data_kind to run a specif
 The code will store the best model into the VGG/weights. Then, you can run the youtube_test.py to load the corresponding checkpoints and test this model on the yutube dataset.
 
 ### LSTM+CNN
-The original training samples is stored in source folder, and the preprocessed samples are stored in data/raw_frames folder. The pre-load model can be changed by changing the value of cnns_arch variable in run_movie_predict.py.
+The original training samples is stored in source folder, and the preprocessed samples are stored in data/raw_frames folder. The pre-load model can be changed by editing the cnns_arch variable in run_movie_predict.py.
 
 To train the model and save the .h5 model file, run the below command:
 ```python  
