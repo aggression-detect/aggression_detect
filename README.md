@@ -51,4 +51,12 @@ data_kind = data_kind_list[1]
 ```  
 Th data_kind_list lists all the video type, change the data_kind to run a specific dataset.  
 
-The code will store the best model into the VGG/weights. Then, you can run the youtube_test.py to load the corresponding checkpoints and test this model on the yutube dataset.  
+The code will store the best model into the VGG/weights. Then, you can run the youtube_test.py to load the corresponding checkpoints and test this model on the yutube dataset.
+
+### LSTM+CNN
+The original training samples is in source folder, and the preprocessed samples are stored under data/raw_frames.
+To train the model and save the .h5 model file, run the below command:
+```python  
+python run_movie.py 
+```  
+The model will be saved under same folder. 
